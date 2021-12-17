@@ -1,0 +1,18 @@
+.home {
+  display: flex;
+  flex: 1;
+  .account_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 50px 40px 33px;
+  }
+  .account_transaction {
+    flex: 1;
+    margin-top: 50px;
+    background: #ffffff;
+    border-radius: 40px 0px 0px 0px;
+    padding: 35px 45px 67px 40px;
+    max-width: 560px;
+  }
+}

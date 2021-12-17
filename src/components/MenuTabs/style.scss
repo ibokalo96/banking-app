@@ -1,0 +1,23 @@
+.nav_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 212px;
+  padding: 108px 0 26px 28px;
+  border-right: 1px solid #dadada;
+  .nav_list {
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+  .nav_section_profile {
+    padding-top: 480px;
+    display: flex;
+    align-items: center;
+    .profile_text {
+      padding-left: 7px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+    }
+  }
+}

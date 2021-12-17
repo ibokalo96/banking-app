@@ -1,0 +1,65 @@
+.currency_account_btn {
+  width: 448px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 25px;
+  border: 0;
+}
+
+.currency_name {
+  display: flex;
+  align-items: center;
+  .currency_icon {
+    background-color: rgb(255, 172, 48);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  .title {
+    padding-left: 7px;
+  }
+}
+
+.active_currency_account_btn {
+  width: 448px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 25px;
+  border: 0;
+  background: linear-gradient(180deg, #fd3a6c 0%, #f5855c 100%);
+  box-shadow: 0px 0px 7px #ee4874;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+.wrapper-btn {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  .marker {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin: auto;
+    margin-right: 20px;
+  }
+}
+.currency_title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}

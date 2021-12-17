@@ -1,0 +1,31 @@
+.transaction_section_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .top_up_item_btn {
+    width: 135px;
+    height: 70px;
+    background: #ffffff;
+    border: 1px solid #fd3a6c;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .top_up_item_text {
+    color: red;
+  }
+}
+.transaction_section_title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: rgba(181, 181, 181, 1);
+}
+.balance_amount_title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  margin: auto;
+}

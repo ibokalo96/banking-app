@@ -1,0 +1,33 @@
+.transaction_items {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+  .transaction_item_btn {
+    width: 110px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f8f8f8;
+    border-radius: 30px;
+    border: 0;
+  }
+  .send-money-btn {
+    background: #ffffff;
+    border: 1px solid #fd3a6c;
+    box-sizing: border-box;
+    border-radius: 30px;
+    .transaction_item_text {
+      color: red;
+    }
+  }
+  .transaction_item_btn span {
+    padding: 11px;
+  }
+}
+.transaction_title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: rgba(181, 181, 181, 1);
+}

@@ -1,0 +1,29 @@
+.request_item {
+  display: flex;
+  align-items: center;
+  .request_item_img {
+    padding: 16.5px;
+  }
+  .request_item_info {
+    width: 100%;
+  }
+  .request_item_info_title {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+  }
+  .request_item_description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgba(121, 121, 121, 1);
+  }
+}
+.account_section_features {
+  padding-top: 220px;
+}
+.transaction_section_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
